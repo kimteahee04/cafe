@@ -277,8 +277,7 @@
   }
 }
 /* 태블릿 */
-@media (min-width: 768px) and (max-width: 1219px) {
- 
+@media (min-width: 768px) and (max-width: 1220px) {
 }
 /* 모바일 */
 @media (max-width: 767px) {
