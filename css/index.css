@@ -119,11 +119,11 @@ ul {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     display: flex;
     gap: 5rem;
     align-items: center;
     justify-content: center;
+    padding: 150px 0px;
   }
   .con03 h3 {
     font-weight: normal;
@@ -131,8 +131,8 @@ ul {
     font-size: 20px;
   }
   .con03 .brew img {
-    width: 772px;
-    height: 635px;
+    /* width: 772px;
+    height: 635px; */
   }
   .con03 .brew_txt ul {
     font-size: 20px;
@@ -170,8 +170,7 @@ ul {
   .con04 .membership_txt,
   .card_txt {
     position: absolute;
-    top: 10%;
-    /* right: 10%; */
+    top: 27%;
     color: #fff;
     padding-left: 10px;
   }
@@ -201,8 +200,10 @@ ul {
     font-size: 1rem;
   }
   footer .sns a {
-    border: 1px solid red;
     display: block;
+  }
+  footer li a i {
+    font-size: 1.5rem;
   }
 }
 /* 태블릿 */
