@@ -546,6 +546,7 @@ ul {
     margin-top: 20px;
   }
   .con04 .membership_txt {
+    border: 1px solid red;
     position: absolute;
     top: 13%;
     color: #fff;
