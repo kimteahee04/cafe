@@ -510,9 +510,71 @@ ul {
     width: 100%;
   }
   .con03 .brew_txt {
-    /* border: 1px solid red; */
     margin: 0px auto;
-    padding-top: 100px;
+    padding-top: 190px;
     width: 300px;
+  }
+  .con03 .brew_txt ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .con03 .brew_txt ul li {
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .con03 h2 {
+    margin-bottom: 20px;
+  }
+  .con03 h3 {
+    font-weight: normal;
+    font-size: 16px;
+  }
+  /* con04 */
+  .con04 {
+    position: relative;
+    padding: 30px 0px;
+  }
+  .con04 .red img {
+    background-color: #000;
+    display: block;
+    margin: 0px auto;
+  }
+  .con04 .card img {
+    margin-top: 20px;
+  }
+  .con04 .membership_txt {
+    position: absolute;
+    top: 13%;
+    color: #fff;
+    margin-left: 20px;
+  }
+  .con04 .card_txt {
+    position: absolute;
+    top: 60%;
+    color: #fff;
+    margin-left: 20px;
+  }
+  .con04 .membership_txt p:first-child,
+  .card_txt p:first-child {
+    margin-bottom: 10px;
+  }
+  /* footer */
+  footer {
+    background-color: rgb(168, 168, 168);
+    padding: 30px 0px;
+  }
+  footer .home {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  footer .sns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+    padding-top: 30px;
   }
 }
