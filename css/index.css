@@ -540,6 +540,7 @@ ul {
     background-color: #000;
     display: block;
     margin: 0px auto;
+    width: 90%;
   }
   .con04 .card img {
     margin-top: 20px;
@@ -548,13 +549,13 @@ ul {
     position: absolute;
     top: 13%;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .con04 .card_txt {
     position: absolute;
     top: 60%;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .con04 .membership_txt p:first-child,
   .card_txt p:first-child {
