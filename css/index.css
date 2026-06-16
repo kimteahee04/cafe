@@ -43,6 +43,9 @@ ul {
     object-fit: cover;
     width: 150px;
   }
+  header .bar {
+    display: none;
+  }
   /* visual */
   #visual {
     background: url(../img/visual.jpg);
@@ -236,6 +239,10 @@ ul {
     object-fit: cover;
     width: 150px;
   }
+  header .bar {
+    display: none;
+  }
+
   /* visual */
   #visual {
     background: url(../img/ta.jpg);
@@ -408,20 +415,41 @@ ul {
     width: 100%;
   }
   header .menu {
-    display: none;
+    color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    padding: 8rem 2rem 0px;
+    background: #fff;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    transition: 0.5s;
+    line-height: 1.5rem;
   }
-
   header i {
     font-size: 1.8rem;
   }
   header h1 a {
     display: block;
   }
+  header li {
+    margin-bottom: 20px;
+  }
   header img {
     display: block;
     object-fit: cover;
     width: 150px;
   }
+  /* .on */
+  header ul.on {
+    right: 0;
+  }
+  header .bar {
+    position: relative;
+    z-index: 20;
+  }
+
   #visual {
     background: url(../img/ta.jpg);
     background-position: center;
