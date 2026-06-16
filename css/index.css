@@ -130,10 +130,7 @@ ul {
     margin-top: 30px;
     font-size: 20px;
   }
-  .con03 .brew img {
-    /* width: 772px;
-    height: 635px; */
-  }
+
   .con03 .brew_txt ul {
     font-size: 20px;
     display: flex;
@@ -198,6 +195,7 @@ ul {
     gap: 3rem;
     text-align: center;
     font-size: 1rem;
+    margin-top: 30px;
   }
   footer .sns a {
     display: block;
@@ -208,6 +206,197 @@ ul {
 }
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1219px) {
+  header {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    padding-top: 30px;
+    z-index: 10;
+  }
+  header .menu {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  header .menu a {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+  }
+  header h1 a {
+    display: block;
+  }
+  header img {
+    display: block;
+    object-fit: cover;
+    width: 150px;
+  }
+  /* visual */
+  #visual {
+    background: url(../img/visual.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .con01 {
+    background-color: rgb(255, 253, 218);
+    padding: 60px 0px;
+    align-items: center;
+  }
+  .con01 .wrap {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .con01 .dessert {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .con01 .dessert img {
+    width: 250px;
+  }
+  .con01 .new {
+    width: 200px;
+    padding: 50px 0px;
+  }
+  .con01 .new p:first-child {
+    font-weight: bold;
+  }
+  .con01 .new p:nth-child(2) {
+    margin: 15px 0px;
+    font-weight: bold;
+  }
+  .con01 .new p:last-child {
+    border: 1px solid #000;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  /* con02 */
+  .con02 {
+    padding: 60px;
+  }
+  .con02 .coffee {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .con02 .coffee li:first-child {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    width: 65px;
+    text-align: center;
+  }
+  .con02 .coffee_txt {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 30px;
+  }
+  /* con03 */
+  .con03 .brew {
+    background-image: url(../img/main04_back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0px;
+  }
+  .con03 h3 {
+    font-weight: normal;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  .con03 .brew_txt ul {
+    font-size: 20px;
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+  }
+  .con03 .brew_txt ul li {
+    background-color: #fff;
+    width: 150px;
+    text-align: center;
+  }
+  .con03 .brew_txt ul li a {
+    display: block;
+    padding: 5px 0px;
+  }
+  /* con04 */
+  .con04 {
+    position: relative;
+    padding: 50px 0px;
+  }
+  .con04 .red {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .con04 .membership img {
+    background-color: #000;
+    display: block;
+  }
+  .con04 .card img {
+    background-color: #000;
+    display: block;
+  }
+  .con04 .membership_txt,
+  .card_txt {
+    position: absolute;
+    top: 27%;
+    color: #fff;
+    padding-left: 10px;
+  }
+  .con04 p:first-child {
+    margin-bottom: 15px;
+  }
+  /* footer */
+  footer {
+    background-color: rgb(168, 168, 168);
+    padding: 50px 0px;
+  }
+  footer .home {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  footer .home li:not(:last-child)::after {
+    content: "|";
+    margin: 0 10px;
+  }
+  footer .sns {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  footer .sns a {
+    display: block;
+  }
+  footer li a i {
+    font-size: 1.5rem;
+  }
 }
 /* 모바일 */
 @media (max-width: 767px) {
