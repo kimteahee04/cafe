@@ -413,6 +413,7 @@ ul {
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 20;
   }
   header .menu {
     color: #000;
