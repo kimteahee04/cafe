@@ -400,4 +400,119 @@ ul {
 }
 /* 모바일 */
 @media (max-width: 767px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+  }
+  header .menu {
+    display: none;
+  }
+
+  header i {
+    font-size: 1.8rem;
+  }
+  header h1 a {
+    display: block;
+  }
+  header img {
+    display: block;
+    object-fit: cover;
+    width: 150px;
+  }
+  #visual {
+    background: url(../img/ta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  /* con01 */
+  .con01 {
+    background-color: rgb(255, 253, 218);
+    padding: 60px 0px;
+  }
+  .con01 .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .con01 .dessert {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .con01 .dessert li {
+    width: calc((100% - 2rem) / 2);
+  }
+  .con01 .dessert img {
+    width: 100px;
+  }
+  .con01 .new {
+    /* border: 1px solid red; */
+    width: 250px;
+  }
+  .con01 .new p:nth-child(2) {
+    margin: 10px 0px;
+  }
+  .con01 .new p:last-child {
+    margin: 20px 0px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 60px;
+    text-align: center;
+  }
+  /* con2 */
+  .con02 {
+    padding: 50px 0px;
+  }
+  .con02 .coffee {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .con02 .coffee li {
+    width: calc(50% - 4rem);
+  }
+  .con02 .coffee_txt {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .con02 .coffee_txt li {
+    width: calc((100% - 3rem) / 2);
+  }
+  .con02 .coffee_txt img {
+    display: block;
+    margin: 0px auto;
+  }
+  .con02 .coffee_txt p {
+    text-align: center;
+  }
+  /* con03 */
+  .con03 {
+    position: relative;
+  }
+  .con03 .brew {
+    background: url(../img/main04_back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .con03 img {
+    display: block;
+    width: 100%;
+  }
+  .con03 .brew_txt {
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    padding-top: 100px;
+    width: 300px;
+  }
 }
