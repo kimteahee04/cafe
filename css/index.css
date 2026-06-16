@@ -21,6 +21,7 @@ ul {
     position: fixed;
     width: 100%;
     padding-top: 30px;
+    z-index: 10;
   }
   header .menu {
     display: flex;
@@ -115,18 +116,22 @@ ul {
   /* con03 */
   .con03 {
     position: relative;
+    min-height: 100vh;
   }
-  .con03 .a1 {
-    background: url(../img/main04_back.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+  .con03 .brew {
+    position: relative;
+    min-height: 100vh;
+    background: url(../img/main04_back.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
   }
+
   .con03 .brew img {
-    position: absolute;
-    top: 15%;
-    right: 10%;
+    display: block;
+    width: 700px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: 250px;
   }
   .con03 .brew > .brew_txt {
     position: absolute;
@@ -155,6 +160,37 @@ ul {
   .con03 ul li a {
     display: block;
     padding: 10px 0px;
+  }
+  /* con04 */
+  .con04 {
+    position: relative;
+  }
+  .con04 .red {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  .con04 .membership img {
+    background-color: #000;
+    display: block;
+  }
+  .con04 .card img {
+    background-color: #000;
+    display: block;
+  }
+  /* txt */
+  .con04 .membership_txt {
+    position: absolute;
+    top: 18%;
+    left: 24%;
+    color: #fff;
+  }
+  .con04 .card_txt {
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    color: #fff;
   }
 }
 /* 태블릿 */
